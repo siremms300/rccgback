@@ -15,7 +15,8 @@
     "noImplicitAny": false,
     "strictNullChecks": false,
     "strictFunctionTypes": false,
-    "strictPropertyInitialization": false
+    "strictPropertyInitialization": false,
+    "ignoreDeprecations": "6.0"
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]

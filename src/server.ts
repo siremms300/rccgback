@@ -34,9 +34,10 @@ import adminRoutes from './routes/admin.routes';
 const app = express();
 const PORT = process.env.PORT || 5000;
 
+// FRONTEND_URL=https://digitalchurch.vercel.app
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://localhost:3001'],
+  origin: ['https://digitalchurch.vercel.app', 'http://localhost:3001', 'http://localhost:3000'],
   credentials: true
 }));
 app.use(express.json());
